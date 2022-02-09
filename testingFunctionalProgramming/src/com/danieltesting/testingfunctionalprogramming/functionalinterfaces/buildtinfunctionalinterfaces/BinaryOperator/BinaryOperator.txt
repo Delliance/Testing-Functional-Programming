@@ -1,0 +1,12 @@
+BinaryOperator
+
+The Java BinaryOperator interface is a functional interface that represents an operation which takes two parameters and
+returns a single value. Both parameters and the return type must be of the same type.
+
+The Java BinaryOperator interface is useful when implementing functions that sum, subtract, divide, multiply etc. two
+elements of the same type, and returns a third element of the same type.
+
+Here is an example implementation of the BinaryOperator interface:
+
+    BinaryOperator<MyValue> binaryOperator =
+            (value1, value2) -> { value1.add(value2); return value1; };
