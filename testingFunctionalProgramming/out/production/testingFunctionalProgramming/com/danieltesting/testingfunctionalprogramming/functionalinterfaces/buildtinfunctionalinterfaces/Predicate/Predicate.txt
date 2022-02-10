@@ -19,8 +19,10 @@ You can implement the Predicate interface using a class, like this:
         }
     }
 
-You can also implement the Java Predicate interface using a Lambda expression. Here is an example of implementing the Predicate interface using a Java lambda expression:
+You can also implement the Java Predicate interface using a Lambda expression. Here is an example of implementing the
+Predicate interface using a Java lambda expression:
 
     Predicate predicate = (value) -> value != null;
 
-This lambda implementation of the Predicate interface effectively does the same as the implementation above that uses a class.
+This lambda implementation of the Predicate interface effectively does the same as the implementation above that uses a
+class.
